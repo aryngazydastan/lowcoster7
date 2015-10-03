@@ -1,1 +1,0 @@
-RGhost::Config::GS[:extensions] << "#{Rails.root}/MYRIADPRO-SEMIBOLDIT.woff"
