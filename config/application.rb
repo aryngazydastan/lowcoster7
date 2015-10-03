@@ -24,7 +24,8 @@ module Lowcoster7
     config.active_record.raise_in_transactional_callbacks = true
     # config.assets.initialize_on_precompile = false
     # config.assets.precompile << /\.(?:svg|eot|woff|ttf)\z/
-    config.assets.paths << Rails.root.join('lib', 'assets', 'fonts')
-    config.assets.precompile += %w(.svg .eot .woff .ttf)
+    # config.assets.paths << Rails.root.join('lib', 'assets', 'fonts')
+    # config.assets.precompile += %w(.svg .eot .woff .ttf)
+    # config.serve_static_assets = true
   end
 end
