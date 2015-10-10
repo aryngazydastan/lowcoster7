@@ -78,5 +78,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
   # config.assets.precompile << /\.(?:svg|eot|woff|ttf)\z/
   # config.serve_static_assets = true
-  config.assets.precompile += %w( welcome.scss MYRIADPRO-SEMIBOLDIT.woff Bitmap.png )
+  # config.assets.precompile += %w( welcome.scss MYRIADPRO-SEMIBOLDIT.woff Bitmap.png )
 end

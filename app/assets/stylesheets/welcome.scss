@@ -4,6 +4,8 @@
 
 h1 {
 	padding-top:2px;
+	padding-left:2px;
+	padding-right:2px;
 	text-align: center;
 	font-family:'Myriad Pro Semibold Italic';
 	font-weight:normal;
@@ -12,13 +14,40 @@ h1 {
 	border: 4px solid #fff;
 	border-radius: 5px;
 	border-color: #FFAF3B;
-	width: 100px;
+	width:100px;
+}
+
+.first {
+	padding-left:2px;
+	padding-right:2px;
+	color: #FFAF3B;
+	border: 4px solid #fff;
+	border-radius: 5px;
+	border-color: #FFAF3B;
+}
+
+.second {
+	padding-left:2px;
+	padding-right:2px;
+	color: #FFAF3B;
+	border: 4px solid #fff;
+	border-radius: 5px;
+	border-color: #FFAF3B;
+}
+
+.third {
+	padding-left:2px;
+	padding-right:2px;
+	color: #FFAF3B;
+	border: 4px solid #fff;
+	border-radius: 5px;
+	border-color: #FFAF3B;
 }
 
 p {
 	font-family:'Myriad Pro Semibold Italic';
 	font-weight:normal;
-	font-size:11px;
+	font-size:9px;
 	color: #FFAF3B;
 }
 
@@ -27,6 +56,10 @@ a {
 	font-weight:normal;
 	font-size:10px;
 	color: #FFAF3B;
+}
+
+.Android {
+	padding-left: 10px;
 }
 
 .offer1 {
@@ -53,11 +86,23 @@ body {
 
 .Describe {
 	padding-top: 50px;
-	padding-left: 90px;
+	padding-left: 95px;
 }
 
 .Name {
-	padding-top: 230px;
+	padding-top: 200px;
+}
+
+.Terms {
+	padding-left: 10px;
+}
+
+.Appstore {
+	padding-left: 650px;
+}
+
+.Playmarket {
+	padding-left: 15px;
 }
 
 @font-face {
