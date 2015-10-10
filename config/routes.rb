@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'lowcoster/welcome'
+
   root 'welcome#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
